@@ -12,6 +12,7 @@ font-family: "Helvetica Neue", "Arial";
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 120px;
 }
 .singleHeadline {
     font-size: 70px;
@@ -42,5 +43,17 @@ font-family: "Helvetica Neue", "Arial";
     font-weight: 200;
     letter-spacing: 1px;
     text-decoration: none;
+}
+.menuItem:hover {
+    text-decoration: underline;
+}
+.textcontainer p {
+    line-height: 1.5;
+    max-width: 650px;
+}
 
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
